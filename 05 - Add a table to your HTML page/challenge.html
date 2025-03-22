@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      table,
+      tr {
+        border: 0.5px solid black;
+      }
+      th {
+        border: 1px solid rgb(134, 134, 63);
+      }
+    </style>
     <title>05 - Add a table to your HTML page</title>
   </head>
   <body>
     <!-- Add a new table tag to your HTML page. -->
+    <h1>TABLA DE USUARIOS</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Cedula</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Alfonso</th>
+          <th>19</th>
+          <th>31999999</th>
+        </tr>
+        <tr>
+          <th>Emilio</th>
+          <th>30</th>
+          <th>39999999</th>
+        </tr>
+        <tr>
+          <th>Josue</th>
+          <th>99</th>
+          <th>11278876</th>
+        </tr>
+      </tbody>
+    </table>
+    <p>Usuarios en la tabla 3</p>
     <!-- Within the [table] tag, add a [thead] tag to create the table header. -->
     <!-- Within the [thead] tag, add a [tr] tag to create a row for the header.  -->
     <!-- Within the [tr] tag, add at least two th tags to create column headers.-->
