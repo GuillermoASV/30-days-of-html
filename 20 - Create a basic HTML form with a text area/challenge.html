@@ -2,8 +2,19 @@
 <html>
   <head>
     <title>20 - Create a basic HTML form with a text area</title>
+    <style>
+      textarea:invalid {
+        border: 2px dashed red;
+      }
+
+      textarea:valid {
+        border: 2px solid lime;
+      }
+    </style>
   </head>
   <body>
     <!-- Create an HTML form that allows users to input text into a textarea. -->
+    <h1>Ingrese en INPUT en el area de texto</h1>
+    <textarea placeholder="Ingrese el INPUT" minlength="50" required></textarea>
   </body>
 </html>
